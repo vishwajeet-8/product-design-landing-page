@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product landing page</title>
+</head>
+
+<body class="bg-black">
+    <!-- navbar -->
+    <div class="flex justify-between p-8 items-center">
+        <div>
+            <img src="./assets/Logo.png" alt="logo"
+                style="filter: invert(23%) sepia(27%) saturate(7329%) hue-rotate(340deg) brightness(85%) contrast(104%);"
+                class="h-10">
+        </div>
+        <div class="inline-block md:hidden cursor-pointer">
+            <i class="fa-solid fa-bars text-3xl text-white"></i>
+        </div>
+        <ul class="space-x-12 hidden md:inline-block md:flex font-['Roboto'] items-center text-white">
+            <li><a href="" class="text-sm font-bold flex">HOME</a></li>
+            <li><a href="" class="text-sm font-bold">PROJECT</a></li>
+            <li><a href="" class="text-sm font-bold">ABOUT</a></li>
+            <li><a href="" class="text-sm font-bold">CONTACT</a></li>
+            <li><a href="" class="text-sm font-bold flex">OTHER PAGE</a></li>
+        </ul>
+    </div>
+    <!-- hero section -->
+    <div class="flex flex-col lg:flex lg:flex-row items-center">
+        <div>
+            <img src="./assets/man img.png" alt="img" class="">
+        </div>
+        <div class="p-10 sm:p-20 lg:p-20">
+            <h6 class="text-[#C91B28] text-lg sm:text-2xl font-semibold font-['Roboto']">Hello I'm Arthur</h6>
+            <h1 class="text-white text-4xl sm:text-6xl font-bold mb-4 font-['Roboto']">Visual Designer</h1>
+            <p class="text-white text-sm sm:text-2xl font-light sm:leading-8 mb-7 font-['Roboto']">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Doloribus ut harum pariatur? Fugit accusantium illo, minus vero hic
+                voluptate? Esse!</p>
+            <button class="text-white bg-[#C91B28] px-8 py-3 text-lg font-semibold font-['Roboto']">ABOUT ME</button>
+        </div>
+    </div>
+    <!-- design section -->
+    <div class="md:flex p-4 md:gap-4 space-y-4">
+        <div class="p-10 sm:p-16 md:p-6 lg:p-16 bg-[#1E1E1E]">
+            <i class="fa-solid fa-laptop text-[#C91B28] text-6xl mb-4"></i>
+            <h1 class="text-white text-4xl font-bold mb-4 font-['Roboto']"> UI Design</h1>
+            <p class="text-white text-xl sm:text-4xl md:text-lg lg:text-3xl font-light mb-4 font-['Roboto']">Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit.</p>
+            <div class="flex items-center space-x-2">
+                <button class="text-[#C91B28] flex items-center text-xl font-medium font-['Roboto']">KNOW MORE</i></button>
+                <i class="fa-solid fa-arrow-right text-[#C91B28]"></i>
+            </div>
+        </div>
+        <div class="p-10 sm:p-16 md:p-6 lg:p-16 bg-[#C91B28]">
+            <i class="fa-solid fa-file-pen text-white text-6xl mb-4"></i>
+            <h1 class="text-white text-4xl font-bold mb-4 font-['Roboto']"> Product Design</h1>
+            <p class="text-white text-xl sm:text-4xl md:text-lg lg:text-3xl font-light mb-4 font-['Roboto']">Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit.</p>
+            <div class="flex items-center space-x-2">
+                <button class="text-white flex items-center text-xl font-medium font-['Roboto']">KNOW MORE</i></button>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+            </div>
+        </div>
+        <div class="p-10 sm:p-16 md:p-6 lg:p-16 bg-[#1E1E1E]">
+            <i class="fa-solid fa-lines-leaning text-[#C91B28] text-6xl mb-4"></i>
+            <h1 class="text-white text-4xl font-bold mb-4 font-['Roboto']"> Branding</h1>
+            <p class="text-white text-xl sm:text-4xl md:text-lg lg:text-3xl font-light mb-4 font-['Roboto']">Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit.</p>
+            <div class="flex items-center space-x-2">
+                <button class="text-[#C91B28] flex items-center text-xl font-medium font-['Roboto']">KNOW MORE</i></button>
+                <i class="fa-solid fa-arrow-right text-[#C91B28]"></i>
+            </div>
+        </div>
+    </div>
+    <!-- experience section -->
+    <div class="flex justify-around items-center p-4 space-x-4">
+        <div class="flex flex-col items-center">
+            <h1 class="text-[#C91B28] text-7xl md:text-8xl lg:text-9xl font-extrabold font-['Roboto']">12</h1>
+            <p class="text-white text-lg md:text-2xl lg:text-4xl font-bold text-center font-['Roboto']">Years Experience</p>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+            <div class="flex flex-col items-center bg-[#1E1E1E] px-8 sm:px-14 py-4">
+                <h1 class="text-[#C91B28] text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-['Roboto']">60+</h1>
+                <p class="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl lg:font-normal font-medium font-['Roboto']">Clients</p>
+            </div>
+            <div class="flex flex-col items-center bg-[#1E1E1E] px-8 sm:px-14 py-4">
+                <h1 class="text-[#C91B28] text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-['Roboto']">08</h1>
+                <p class="text-white text-md sm:text-lg md:text-2xl lg:text-3xl lg:font-normal font-medium text-center font-['Roboto']">
+                    Years Experience</p>
+            </div>
+            <div class="flex flex-col items-center bg-[#1E1E1E] px-8 sm:px-14 py-4">
+                <h1 class="text-[#C91B28] text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-['Roboto']">122+</h1>
+                <p class="text-white text-sm sm:text-lg md:text-2xl lg:text-3xl lg:font-normal font-medium text-center font-['Roboto']">
+                    Completed Projects</p>
+            </div>
+            <div class="flex flex-col items-center bg-[#1E1E1E] px-8 sm:px-14 py-4">
+                <h1 class="text-[#C91B28] text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-['Roboto']">10</h1>
+                <p class="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl lg:font-normal font-medium font-['Roboto']">Achievments
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- featured projects -->
+    <div class="flex flex-col items-center p-20 lg:flex-row justify-between mt-20 ">
+        <div>
+            <h1 class="text-white text-4xl font-bold lg:text-5xl lg:font-extrabold text-center lg:text-start mb-4 font-['Roboto']">
+                FEATURED PROJECTS</h1>
+            <p class="text-white text-2xl font-light text-center lg:text-start mb-6 font-['Roboto']">Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit.</p>
+        </div>
+        <div>
+            <button class="text-white bg-[#C91B28] px-8 py-3 text-lg font-semibold font-['Roboto']">VIEW ALL</button>
+        </div>
+    </div>
+    <div class="flex flex-col items-center space-y-8 lg:grid grid-cols-2 justify-items-center gap-8 p-10">
+        <div>
+            <div class="border border-x-[20px] border-y-[40px] border-[#1E1E1E] max-w-lg">
+                <img src="./assets/black img.jpg" alt="" class="object-cover">
+            </div>
+            <div>
+                <h1 class="text-white font-bold text-4xl font-['Roboto']">The Vintage</h1>
+                <div class="flex items-center space-x-2">
+                    <button class="text-[#C91B28] flex items-center text-xl font-medium font-['Roboto']">KNOW MORE</i></button>
+                    <i class="fa-solid fa-arrow-right text-[#C91B28]"></i>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="border border-x-[20px] border-y-[40px] border-[#1E1E1E] max-w-lg">
+                <img src="./assets/burger img.jpg" alt="" class="object-cover">
+            </div>
+            <div>
+                <h1 class="text-white font-bold text-4xl font-['Roboto']">Foodasa</h1>
+                <div class="flex items-center space-x-2">
+                    <button class="text-[#C91B28] flex items-center text-xl font-medium font-['Roboto']">KNOW MORE</i></button>
+                    <i class="fa-solid fa-arrow-right text-[#C91B28]"></i>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="border border-x-[20px] border-y-[40px] border-[#1E1E1E] max-w-lg">
+                <img src="./assets/sofa img.jpg" alt="" class="object-cover">
+            </div>
+            <div>
+                <h1 class="text-white font-bold text-4xl font-['Roboto']">Marco Accent</h1>
+                <div class="flex items-center space-x-2">
+                    <button class="text-[#C91B28] flex items-center text-xl font-medium font-['Roboto']">KNOW MORE</i></button>
+                    <i class="fa-solid fa-arrow-right text-[#C91B28]"></i>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="border border-x-[20px] border-y-[40px] border-[#1E1E1E] max-w-lg">
+                <img src="./assets/festival img.jpg" alt="" class="object-cover">
+            </div>
+            <div>
+                <h1 class="text-white font-bold text-4xl font-['Roboto']">Mozaik</h1>
+                <div class="flex items-center space-x-2">
+                    <button class="text-[#C91B28] flex items-center text-xl font-medium font-['Roboto']">KNOW MORE</i></button>
+                    <i class="fa-solid fa-arrow-right text-[#C91B28]"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT -->
+    <div class="lg:p-20">
+        <div class="flex flex-col items-center p-20 lg:flex-row justify-between mt-16 bg-[#1E1E1E] ">
+            <div class="lg:mr-52">
+                <h1 class="text-white text-4xl font-bold lg:text-6xl lg:font-extrabold text-center lg:text-start mb-4 font-['Roboto']">
+                    Let's work together on your next project</h1>
+                <p class="text-white text-2xl font-light text-center lg:text-start mb-6 font-['Roboto']">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam animi, aspernatur dicta perspiciatis earum temporibus.</p>
+            </div>
+            <div>
+                <button class="text-white bg-[#C91B28] px-10 py-5 text-xl font-semibold font-['Roboto']">CONTACT</button>
+            </div>
+        </div>
+    </div>
+    <!-- <fotter></fotter> -->
+    <div class="text-white font-normal flex justify-center items-center space-x-8 text-xs p-10 font-['Roboto']">
+        <div>HOME</div>
+        <div>ABOUT</div>
+        <div>PROJECTS</div>
+        <div>CONTACT</div>
+    </div>
+    <div class="flex sm:p-10 items-center justify-between bg-[#1E1E1E]">
+        <div class="min-w-10 p-10">
+            <img src="./assets/Logo.png" alt="logo"
+                style="filter: invert(23%) sepia(27%) saturate(7329%) hue-rotate(340deg) brightness(85%) contrast(104%);">
+        </div>
+        <div class="text-white space-x-4 sm:space-x-10 px-10 flex">
+            <i class="fa-brands fa-facebook-f md:text-3xl"></i>
+            <i class="fa-brands fa-twitter md:text-3xl"></i>
+            <i class="fa-brands fa-youtube md:text-3xl"></i>
+        </div>
+    </div>
+</body>
+
+</html>
